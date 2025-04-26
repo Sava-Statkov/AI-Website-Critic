@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Website Critic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Light/Dark Mode Toggle Button -->
+  <button id="toggle-mode-btn">Dark Mode</button>
+
+  <!-- Main container -->
+  <div class="container">
+    <h1>AI Website Critic</h1>
+    <p>Get a brutally honest (and hilarious) review of any website instantly!</p>
+
+    <!-- Website URL Form -->
+    <form id="critic-form">
+      <input
+        type="url"
+        id="website-url"
+        placeholder="Enter website URL (e.g. https://example.com)"
+        required
+      />
+      <button type="submit">Generate</button>
+    </form>
+
+    <!-- Critique output section -->
+    <div id="prompt-output" class="hidden">
+      <h2>Your ChatGPT Prompt:</h2>
+      <textarea id="ai-prompt" readonly></textarea>
+      <button id="copy-btn">Copy Prompt</button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
