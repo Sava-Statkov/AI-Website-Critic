@@ -1,11 +1,11 @@
 # AI Website Critic 
 
-A fun, brutally honest, and AI-powered website reviewer!  
-Enter a URL and get a hilarious, sarcastic, but surprisingly insightful critique instantly.
+A fun AI-powered website reviewer.
+Enter a URL and get a sarcastic, but surprisingly insightful critique instantly.
 
 ---
 
-## 📜 Description
+##  Description
 
 **AI Website Critic** is a web application that combines a responsive frontend with a Python Flask backend.  
 It sends user-provided website URLs to OpenAI's GPT-3.5 model, which then generates a playful and witty review.  
@@ -18,17 +18,17 @@ It sends user-provided website URLs to OpenAI's GPT-3.5 model, which then genera
 
 ---
 
-## 🌟 Features
+##  Features
 
-- 🔥 Instant and funny website reviews
-- 🎨 Light/Dark mode toggle
-- ⚡ Smooth transitions and user experience
-- 🧠 Sarcastic AI prompt customization
-- 📝 Easy "Copy Prompt" button
+- Instant and funny website reviews
+- Light/Dark mode toggle
+- Smooth transitions and user experience
+- Sarcastic AI prompt customization
+- Easy "Copy Prompt" button
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5**
 - **CSS3**
